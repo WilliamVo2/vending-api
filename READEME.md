@@ -11,6 +11,15 @@
 - User can see many random items on the healthy brand food recommendation.
 
 ### Set up
+- Git clone repository
+- Set up .env base on `.env.example`
+- Run `yarn install`
+- Run `createdb vending-api_development`
+- Run `cd server`
+- Run `yarn migrate:latest`
+- Run `yarn db:seed`
+- Navigate to app root directory. Run `yarn run dev`
+- Go to`localhost:3000` i a browser to see the app
 
 ### Author
 William Vo
