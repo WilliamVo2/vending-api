@@ -16,7 +16,7 @@ class Order extends Model {
   }
 
   static get relationMappings() {
-    const VendOrderDetail = require("./VendOderDetail")
+    const VendOrderDetail = require("./VendOrderDetail")
     const Item = require("./Item")
 
     return {
