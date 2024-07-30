@@ -15,6 +15,7 @@
 - Set up .env base on `.env.example`
 - Run `yarn install`
 - Run `createdb vending-api_development`
+- (Run `dropdb vending-api_development` for drop database.)
 - Run `cd server`
 - Run `yarn migrate:latest`
 - Run `yarn db:seed`
